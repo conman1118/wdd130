@@ -38,13 +38,20 @@ main{
     max-width: 840px;
 }
 aside{
+    position: relative;
     width: 30rem;
     text-align: center;
-    position: relative;
 }
+
 aside img{
     width: 200px;
     height: auto;
+}
+
+aside h2{
+    position: absolute;
+    top: 17px;
+    left: 165px;
 }
 
 main img{
