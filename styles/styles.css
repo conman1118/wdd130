@@ -1,13 +1,13 @@
 :root{
     --heading-background-color: darkblue;
-    --heading-text-color: rgb(34, 121, 208);
+    --heading-text-color: darkblue;
     --heading-font: 'Times New Roman',  Times, serif;
     --padding: 1rem;
     --border: 1px solid black;
 }
 
 nav {
-    background-color: val(--background-color);
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 nav a {
@@ -16,12 +16,13 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: val(--background-color);
+    color: var(--heading-text-color);
+    
 }
 img {
     width: 150px;
     height: auto;
-    border: val(--border);
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -34,8 +35,8 @@ main{
 aside{
     width: 30rem;
     margin: 1rem;
-    border: val(--border);
-    padding: val(--padding);
+    border: var(--border);
+    padding: var(--padding);
     background-color: #eee;
     color: #333;
     text-align: center;
