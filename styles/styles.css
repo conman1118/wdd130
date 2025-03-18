@@ -1,5 +1,13 @@
+:root{
+    --heading-background-color: darkblue;
+    --heading-text-color: rgb(34, 121, 208);
+    --heading-font: 'Times New Roman',  Times, serif;
+    --padding: 1rem;
+    --border: 1px solid black;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: val(background-color);
     padding: 10px;
 }
 nav a {
@@ -8,12 +16,12 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    color: val(background-color);
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: val(border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
