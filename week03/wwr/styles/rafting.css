@@ -11,6 +11,10 @@
     --p_font: "Playfair Display", serif;
 }
 
+.article img {
+    width: 200px;
+}
+
 .hero img{
     display: block;
     width: 100%;
