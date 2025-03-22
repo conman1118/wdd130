@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --header_text_color: #F1E9DB;
+    --subtext_color:  #DC851F;
+    --background-color: #5DB7DE;
+    --header_font: "Roboto Mono", monospace;
+    --p_font: "Playfair Display", serif;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.hero p {
+    position: absolute;
+    bottom: 350px;
+    right: 150px;
+    padding: 2rem;
+    color: var(--subtext_color);
+    border: 1px solid black;
+    background-color: #5DB7DE;
+}
+
+h1 {
+    position: absolute;
+    left: 120px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--header_text_color);
+    font-family: var(--header_font);
+}
+
+header {
+    text-align: center;
+}
+
+main p {
+    color: var(--subtext_color);
+    font-family: var(--p_font);
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
