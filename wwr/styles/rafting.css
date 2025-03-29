@@ -84,18 +84,46 @@ header img{
     width: 200px;
 }
 
+.history p {
+    color: var(--secondary-color);
+}
+
 head{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-.gallery{
+.adventure {
+    padding: 40px 20px;
+    text-align: center;
+}
+.gallery {
     display: flex;
-    justify-items: space-around;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+.adventure-gallery  figure {
+    margin: 0;
+    flex: 1;
+}
+
+.gallery  figure {
+    margin: 0;
+    flex: 1;
+}
+
+.gallery  figure  img {
+    width: 100%;
     height: auto;
-    width: 800px;
-    
+    border-radius: 8px;
+}
+
+.gallery  figure  figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--secondary-color);
 }
 
 .adventure h2{
