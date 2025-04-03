@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Connor Neus | HTML - User Poll</h1>
+    </header>
+    
+    <main>
+        <form>
+            <fieldset>
+                <legend> Contact Information</legend>
+
+                <label for="Fullname">Full Name: </label>
+                <input type="text" id="fullname" name="fullname">
+
+                <label for="useremail">Email: </label>
+                <input type="email" name="usermail" id="usermail">
+
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+
+                <label for="fav_browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="arc">Arc Browser</option>
+                </select>
+                <label for="pet">Do you have a pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="places">List the places that you have lived.</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Baton Rouge Louisiana, Gilbert Arizona, Portland Oregon, Jackson Mississippi"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©️2025 | HTML Form - User Poll Activity | Connor Neus</p>
+    </footer>
+</body>
+</html>
