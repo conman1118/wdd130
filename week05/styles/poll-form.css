@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Boldonse", system-ui;
+    font-size: 1.2em;
+    color: rgb(19, 27, 121);
+    background: #fff;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    font-family: "Bungee Tint", sans-serif;
+    margin: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color:antiquewhite;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 3px solid rgb(0 0 0 / 0.5);
+    padding: 2rem;
+}
+
+legend{
+    padding: 0.9rem;
+    font-size: 2rem;
+}
+
+label, input, button, select, textarea{
+    font-family: "Dancing Script", cursive;
+    color:rgb(19, 27, 121);
+    font-size: 1.7rem;
+}
+
+label{
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+button{
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: .5rem;
+
+}
+
+button:hover{
+    background-color:coral;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #ccc;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 0.4fr 3fr;
+    margin: 1rem;
+}
