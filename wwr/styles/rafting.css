@@ -92,7 +92,7 @@ header img{
 
 .history p {
     color: var(--accent-color);
-    border: 3px auto 0;
+    border: 3px 0;
     border-color: var(--headin-color);
 }
 
@@ -164,7 +164,7 @@ iframe {
     flex-direction: column;
     gap: 15px;
     color: var(--accent-color);
-    border: 3px auto 0;
+    border: 3px 0;
     border-radius: 0.5rem;
     background-color: var(--additional-accent-color);
   }
