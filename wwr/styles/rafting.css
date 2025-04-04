@@ -32,6 +32,11 @@ body {
     padding: 20px;
 }
 
+body .company{
+    border-bottom: 1px solid var(--additional-accent-color);
+
+}
+
 /* Grouping selector for all headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -51,7 +56,9 @@ nav a {
     padding: 1rem;
     display: flex;
     flex-direction: row;
-   justify-content: space-around;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--additional-accent-color);
+    line-height: 26px;
 }
 
 header h1{
@@ -74,6 +81,7 @@ header img{
     margin: 0 auto;
     color: white;
 }
+
 .hero h1 article {
     position: absolute;
     
@@ -91,8 +99,8 @@ header img{
 
 .history p {
     color: var(--accent-color);
-    border: 3px 0;
-    border-color: var(--headin-color);
+    border: 3px solid;
+    border-color: var(--additional-accent-color);
 }
 
 head{
