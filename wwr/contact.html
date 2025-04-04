@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Company Contact Page</title>
+    <meta name="description" content="contacting us">
+    <meta name="Author" content="Connor Neus">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="flex-container">
+        <div class="logo">
+            <img src="images/down_river.webp" alt="Company Logo" width="200">
+        </div>
+        <nav class="nav-links">
+            <div>
+                <a href="../index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <h1>Down the River Rafting!</h1>
+    <main>
+        <h2>Contact Us</h2>
+        <section>
+            <h3>Company Information</h3>
+            <p><strong>Address:</strong> 1234 S Whatever Lane United States</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> <a href="mailto:info@rafting.com">info@rafting.com</a></p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13337445.331922114!2d-110.2547459452719!3d35.30070749926743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809cd36d7c8f0f7f%3A0xfde4aeb64cb4546c!2sWhatever%20Ln%2C%20Paradise%2C%20CA%2095969!5e0!3m2!1sen!2sus!4v1743788612211!5m2!1sen!2sus" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="team">
+            <h3>Meet Our Team</h3>
+            <div class="gallery">
+                <figure>
+                    <img src="images/employee1.webp" alt="Smiling Employee 1">
+                    <figcaption>John Doe, Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.webp" alt="Smiling Employee 2">
+                    <figcaption>Jane Smith, Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.webp" alt="Smiling Employee 3">
+                    <figcaption>Alex Johnson, Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                </fieldset>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Submit Your Message</button>
+            </form>
+
+    </main>
+    <footer>
+        <p>©️Connor Neus 2025</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/">
+                <img src="images/Facebook_logo.webp" alt="Facebook" width="100"></a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram_logo.webp" alt="Instagram" width = '100'></a>
+            <a href="https://x.com/">
+                <img src="images/x_logo.webp" alt="X" width="100"></a>
+        </nav>
+    </footer>
+</body>
+</html>

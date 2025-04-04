@@ -1,13 +1,19 @@
+* {
+    background-color: var(--secondary-color);
+}
+
+
 :root {
     /* Primary colors */
     --primary-color: #1E90FF; /* Dodger Blue */
-    --secondary-color: #2E8B57; /* Sea Green */
+    --secondary-color: #04151F; /* Sea Green */
     --accent-color: #DAA520; /* Goldenrod */
     --additional-accent-color: #708090; /* Slate Gray */
 
     /* Fonts */
     --heading-font: "Roboto", monospace;
     --paragraph-font: "Playfair Display", serif;
+    --headin-color: #C44900;
 
     /* Navigation */
     --navigation-bg-color: #1568A6; /* Deep Blue */
@@ -29,12 +35,12 @@ body {
 /* Grouping selector for all headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color); /* You can choose any color from your schema */
+    color: var(--headin-color); /* You can choose any color from your schema */
 }
 
 p {
     padding: 30px;
-
+    color: var(--accent-color);
 }
 
 nav a {
@@ -85,7 +91,9 @@ header img{
 }
 
 .history p {
-    color: var(--secondary-color);
+    color: var(--accent-color);
+    border: 3px auto 0;
+    border-color: var(--headin-color);
 }
 
 head{
@@ -123,7 +131,7 @@ head{
 .gallery  figure  figcaption {
     margin-top: 10px;
     font-size: 14px;
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 .adventure h2{
@@ -131,7 +139,78 @@ head{
     justify-content: center
 }
 
+footer{
+    color: var(--accent-color);
+}
+
+
 section h2{
     display: flex;
     justify-content: center
+}
+
+iframe {
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--accent-color);
+    border: 3px auto 0;
+    border-radius: 0.5rem;
+    background-color: var(--additional-accent-color);
+  }
+  
+  input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    background-color: var(--additional-accent-color);
+  }
+
+  
+  fieldset {
+    border: 1px solid slategray;
+    padding: 10px;
+    background-color: var(--additional-accent-color);
+  }
+  
+  button {
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6e5412;
+  }
+  
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+
+
+  .form label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: var(--additional-accent-color);
+}
+
+.form legend{
+    background-color: var(--additional-accent-color);
+}
+
+.team h3{
+    
 }
