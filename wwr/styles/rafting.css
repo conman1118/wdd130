@@ -150,8 +150,10 @@ section h2{
 }
 
 iframe {
-    max-width: 100%;
-    align-items: center;
+    display: inline-block;
+    justify-content: flex-start;
+    width: 970px;
+
   }
   
   form {
@@ -212,5 +214,7 @@ iframe {
 }
 
 .team h3{
+    display: grid;
+    justify-content: center;
     
 }
