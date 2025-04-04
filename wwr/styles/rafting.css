@@ -72,7 +72,6 @@ header img{
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: rgba(30, 144, 255, .7);
     color: white;
 }
 .hero h1 article {
@@ -139,6 +138,24 @@ head{
     justify-content: center
 }
 
+.info{
+    padding: 20px;
+}
+
+.info p{
+    display: grid;
+    justify-content: center;
+    border: 1px solid var(--additional-accent-color);
+    border-radius: 0.5rem;
+    border-width: medium;
+    
+}
+
+.info h3{
+    display: grid;
+    justify-content: center;
+}
+
 footer{
     color: var(--accent-color);
 }
@@ -152,7 +169,7 @@ section h2{
 iframe {
     display: inline-block;
     justify-content: flex-start;
-    width: 970px;
+    width: 920px;
 
   }
   
@@ -166,7 +183,13 @@ iframe {
     color: var(--accent-color);
     border: 3px 0;
     border-radius: 0.5rem;
+    border-color: #04151F;
     background-color: var(--additional-accent-color);
+  }
+
+  .form h3{
+    display: grid;
+    justify-content: center;
   }
   
   input, textarea, button {
