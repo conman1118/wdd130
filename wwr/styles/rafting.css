@@ -6,9 +6,9 @@
 :root {
     /* Primary colors */
     --primary-color: #1E90FF; /* Dodger Blue */
-    --secondary-color: #04151F; /* Sea Green */
+    --secondary-color: #174a2a; /* Sea Green */
     --accent-color: #DAA520; /* Goldenrod */
-    --additional-accent-color: #708090; /* Slate Gray */
+    --additional-accent-color: #0e1261; /* Slate Gray */
 
     /* Fonts */
     --heading-font: "Roboto", monospace;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     padding: 30px;
-    color: var(--accent-color);
+    color: var(--headin-color);
 }
 
 nav a {
@@ -72,35 +72,47 @@ header img{
 .hero {
     position: relative;
 }
-.hero article {
-    width: 80%;
-    top: 8rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    color: white;
+
+.hero img {
+    width: 100%;
 }
 
-.hero h1 article {
+.hero h1 {
     position: absolute;
-    
+    top: 1em;
+    left: 2rem;
+    right: 2rem;
+    text-align: center;
+    padding: .5rem;
+    background-color: #ffffff61;
 }
-.hero img{
-    width: 100%;
-    height: auto;
- 
- 
+
+.hero article {
+    background-color: #ffffff61;
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+    right: 2rem;
+    padding: 2rem;
+    opacity: .9;
 }
+
 .hero article img {
     float: right;
-    width: 200px;
+    max-width: 13rem;
+}
+
+.hero a{
+    color: var(--headin-color);
+    text-decoration: none;
+    
 }
 
 .history p {
     color: var(--accent-color);
     border: 3px solid;
     border-color: var(--additional-accent-color);
+    text-align: ;
 }
 
 head{
@@ -244,8 +256,40 @@ iframe {
     background-color: var(--additional-accent-color);
 }
 
+.form h2{
+    background-color: var(--additional-accent-color);
+}
+
+.form-item-column2{
+    background-color: var(--additional-accent-color);
+}
+
 .team h3{
     display: grid;
     justify-content: center;
+    
+}
+
+.stwo {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    justify-items: center;
+}
+
+.stwo h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+    padding: 1em 0;
+}
+
+.stwo img {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 50%;
+    border: 1px solid black;
+    padding: 2px;
     
 }
