@@ -191,7 +191,7 @@ iframe {
     justify-content: flex-start;
     width: 920px;
 
-  }
+}
   
 form {
     width: 650px;
@@ -205,12 +205,12 @@ form {
     border-radius: 0.5rem;
     border-color: #04151F;
     background-color: var(--additional-accent-color);
-  }
+}
 
 .form h3{
     display: grid;
     justify-content: center;
-  }
+}
   
 input, textarea, button {
     padding: 10px;
@@ -218,14 +218,14 @@ input, textarea, button {
     font-family: var(--heading-font);
     color: var(--accent-color);
     background-color: var(--additional-accent-color);
-  }
+}
 
   
 fieldset {
     border: 1px solid slategray;
     padding: 10px;
     background-color: var(--additional-accent-color);
-  }
+}
   
 button {
     background-color: var(--accent-color);
@@ -233,18 +233,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
   
 button:hover {
     background-color: #6e5412;
-  }
+}
   
 figure {
     display: inline-block;
     text-align: center;
     margin: 10px;
-  }
-
+}
 
 .form label {
     font-family: 'Roboto', sans-serif;
